@@ -1,27 +1,53 @@
+body {
+  box-sizing: border-box;
+}
+
+
 /*centers the figcaption on the image and pulls the picture to the left*/
 .profilePic {
 	float: left;
 	text-align: center;
 	font-style: italic;
 	font-weight: bold;
+/*  border: 1px solid blue;
+*/  width: 48%;
 }
 
-.profilePic {
-	border: 1px solid blue;
-}
+
 
 /*float the h1 to the right*/
 h1 {
-	float: right;
-}
+/*text-align: right;
+*/}
 
 /*wraps the main body elements in a div called "wrapper"*/
 .wrapper {
-	max-width: 500px;
-	border: 1px solid red;
+	width: 80%;
+/*	border: 1px solid red;
+*/  /*column-count: 2;*/
+  margin: 0 auto;
+  overflow: hidden;
 }
 
+/*styling for the paragraph elements*/
+
+.words {
+  width: 48%;
+  float: left;
+
+}
+
+.link {
+  color: blue;
+
+}
 /*styling for the footer*/
+
+footer {
+  clear: both;
+}
+
+
 .me {
   display: block;
   margin: 2em auto;
@@ -33,7 +59,12 @@ h1 {
   z-index: 2;
 }
 
-.social {
+/*.social div {
+    background-color: blue;
+
+    }*/
+
+  .social {
   text-align: center;
   font-size: 2.5em;
   color: #555;
@@ -62,7 +93,7 @@ h1 {
       color: black;
     }
 
-    .icon #linkedin:hover {
+    .icon-linkedin-sign:hover {
       color: #0177B5;
     }
 
@@ -78,7 +109,7 @@ h1 {
       color: #D43402;
     }
 
-    .icon#mail:hover {
+    .icon-envelope:hover {
       color: #F7B401;
     }
   

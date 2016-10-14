@@ -21,18 +21,18 @@ $(window).load(function() {
     left: '47%'
   });
   
-  setTimeout(function() {
-    $('#twitter').animate({
-      top: twitterPos.top + 10,
-      left: twitterPos.left - 10
-    }, 500);
-  }, 250);
+  // setTimeout(function() {
+  //   $('#twitter').animate({
+  //     top: twitterPos.top + 10,
+  //     left: twitterPos.left - 10
+  //   }, 500);
+  // }, 250);
   
   setTimeout(function() {
-    $('#twitter').animate({
-      top: twitterPos.top,
-      left: twitterPos.left
-    }, 250);
+    // $('#twitter').animate({
+    //   top: twitterPos.top,
+    //   left: twitterPos.left
+    // }, 250);
     
     $('#github').animate({
       top: githubPos.top + 10,
@@ -46,17 +46,17 @@ $(window).load(function() {
       left: githubPos.left
     }, 250);
     
-    $('#stack').animate({
-      top: stackPos.top + 10,
-      left: stackPos.left - 3
-    }, 500);
-  }, 750);
+  //   $('#stack').animate({
+  //     top: stackPos.top + 10,
+  //     left: stackPos.left - 3
+  //   }, 500);
+  // }, 750);
   
-  setTimeout(function() {
-    $('#stack').animate({
-      top: stackPos.top,
-      left: stackPos.left
-    }, 250);
+  // setTimeout(function() {
+  //   $('#stack').animate({
+  //     top: stackPos.top,
+  //     left: stackPos.left
+  //   }, 250);
     
     $('#linkedin').animate({
       top: linkedinPos.top + 10,
@@ -70,29 +70,29 @@ $(window).load(function() {
       left: linkedinPos.left
     }, 250);
     
-    $('#code').animate({
-      top: codePos.top + 10,
-      left: codePos.left + 3
-    }, 500);
-  }, 1250);
+  //   $('#code').animate({
+  //     top: codePos.top + 10,
+  //     left: codePos.left + 3
+  //   }, 500);
+  // }, 1250);
   
-  setTimeout(function() {
-    $('#code').animate({
-      top: codePos.top,
-      left: codePos.left
-    }, 250);
+  // setTimeout(function() {
+  //   $('#code').animate({
+  //     top: codePos.top,
+  //     left: codePos.left
+  //   }, 250);
     
-    $('#plus').animate({
-      top: plusPos.top + 10,
-      left: plusPos.left + 6
-    }, 500);
-  }, 1500);
+  //   $('#plus').animate({
+  //     top: plusPos.top + 10,
+  //     left: plusPos.left + 6
+  //   }, 500);
+  // }, 1500);
   
-  setTimeout(function() {
-    $('#plus').animate({
-      top: plusPos.top,
-      left: plusPos.left
-    }, 250);
+  // setTimeout(function() {
+  //   $('#plus').animate({
+  //     top: plusPos.top,
+  //     left: plusPos.left
+  //   }, 250);
     
     $('#mail').animate({
       top: mailPos.top + 10,
