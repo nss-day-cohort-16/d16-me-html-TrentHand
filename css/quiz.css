@@ -1,0 +1,115 @@
+body {
+  box-sizing: border-box;
+}
+
+
+/*centers the figcaption on the image and pulls the picture to the left*/
+.profilePic {
+	float: left;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+/*  border: 1px solid blue;
+*/  width: 48%;
+}
+
+
+
+/*float the h1 to the right*/
+h1 {
+/*text-align: right;
+*/}
+
+/*wraps the main body elements in a div called "wrapper"*/
+.wrapper {
+	width: 80%;
+/*	border: 1px solid red;
+*/  /*column-count: 2;*/
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*styling for the paragraph elements*/
+
+.words {
+  width: 48%;
+  float: left;
+
+}
+
+.link {
+  color: blue;
+
+}
+/*styling for the footer*/
+
+footer {
+  clear: both;
+}
+
+
+.me {
+  display: block;
+  margin: 2em auto;
+  margin-bottom: 3em;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+/*.social div {
+    background-color: blue;
+
+    }*/
+
+  .social {
+  text-align: center;
+  font-size: 2.5em;
+  color: #555;
+  overflow: hidden;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  i {
+    margin: .3em;
+    cursor: pointer;
+    transition: color 300ms ease, margin-top 300ms ease;
+    transform: translateZ(0);
+    }
+    i:hover {
+      margin-top: -2px;
+    }
+    
+    .icon #twitter:hover {
+      color: #77DDF6;
+    }
+
+    .icon-github:hover {
+      color: black;
+    }
+
+    .icon-linkedin-sign:hover {
+      color: #0177B5;
+    }
+
+    .icon #code:hover {
+      color: #29A329;
+    }
+
+    .icon #stack:hover {
+      color: #ED780E;
+    }
+
+    .icon#plus:hover {
+      color: #D43402;
+    }
+
+    .icon-envelope:hover {
+      color: #F7B401;
+    }
+  
